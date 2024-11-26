@@ -1,20 +1,14 @@
-import { Text, type TextProps, StyleSheet } from 'react-native';
+import { Text, TextProps } from "react-native";
+import { GlobalStyles } from "../themes/GlobalStyles";
 
-interface Props extends TextProps {};
-
-export const Pantalla = ({children, ...rest}:Props) => {
-  return (
-    <Text style={styles.pantallaPrincipal} {...rest}>
-        {children}
-    </Text>
-  )
+interface Props extends TextProps {
+  value: string; // Valor que mostrará la pantalla
 }
 
-const styles = StyleSheet.create({
-    pantallaPrincipal: {
-        fontSize: 70,
-        textAlign: 'right',
-        fontWeight:400,
-        width: '90%',
-    },
-  });
+export const PantallaUnificada = ({ value, ...rest }: Props) => {
+  return (
+    <Text style={GlobalStyles.pantallaPrincipal} {...rest}>
+      {value}
+    </Text>
+  );
+};
