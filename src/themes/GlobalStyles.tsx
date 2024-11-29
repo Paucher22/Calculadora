@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { Color } from "./color";
+import { Color } from "./Color";
 export const GlobalStyles = StyleSheet.create({
 
     
@@ -9,7 +9,7 @@ export const GlobalStyles = StyleSheet.create({
         padding: 10,
         fontSize: 30,
         fontWeight: 300,
-        borderColor: Color.orange,
+        borderColor: Color.granate,
         borderWidth: 2,
         borderRadius: 150,
         
@@ -25,7 +25,7 @@ export const GlobalStyles = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: Color.blanco,
+        backgroundColor: Color.negro,
         alignItems:  'center',
         justifyContent: 'flex-end',
         paddingBottom:20,

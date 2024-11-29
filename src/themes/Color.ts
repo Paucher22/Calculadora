@@ -1,11 +1,11 @@
 export const Color={
 
-    darkGray: '#2d2d2d',
+    botones1: '#39215c',
     ligthGray: '0b0b0b',
-    orange: '#ff9427',
-    blanco: '#111',
+    granate: '#870e1f',
+    negro: '#111',
 
-    textPrimary: 'white',
+    textPrimary: '#eae9e7',
     textSecondary: '#666666',
     background: '#000',
 
