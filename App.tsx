@@ -31,7 +31,7 @@ export default function App() {
         <BotonOperacion label='C' width={80} onPress={clean} type="utility"></BotonOperacion>
         <BotonOperacion label='+/-' width={80} onPress={cambiarSigno} type="utility"></BotonOperacion>
         <BotonOperacion label='del' width={80} onPress={borrarDigito} type="utility"></BotonOperacion>
-        <BotonOperacion label='/' width={80} onPress={() => establecerOperacion(Operadores.dividir)} type="operator"></BotonOperacion>
+        <BotonOperacion label='/' width={80} onPress={() => establecerOperacion(Operadores.dividir)} type='operator'></BotonOperacion>
       </View>
       <View style={GlobalStyles.fila}>
         <BotonOperacion label='7' width={80} onPress={() => construirNumero('7')} type="number"></BotonOperacion>
